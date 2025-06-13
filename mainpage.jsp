@@ -91,8 +91,8 @@
             </div>
         </form>
         <div class="option_link">
-            <a href="find.jsp">아이디 찾기</a> | 
-            <a href="find.jsp">비밀번호 찾기</a> | 
+            <a href="idfind.jsp">아이디 찾기</a> | 
+            <a href="pwfind.jsp">비밀번호 찾기</a> | 
             <a href="register.jsp">회원가입</a>
         </div>
     </div>
