@@ -86,7 +86,7 @@
     </div>
     <div class="buttons">
         <button class="sidebuttons" onclick="location.href='ranking.jsp'">랭킹</button>
-        <button class="sidebuttons" onclick="location.href='settings.jsp'">설정</button>
+        <button class="sidebuttons" onclick="location.href='info.jsp'">설정</button>
     </div>
 </body>
 </html>
