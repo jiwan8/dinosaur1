@@ -4,8 +4,7 @@
 <head>
     <title>회원가입</title>
     <style>
-    /*유저 db에 정보 업로드 기능 미구현*/
-        body {
+   		body {
             margin: 0;
             padding: 0;
             height: 100vh;
@@ -69,7 +68,7 @@
         <%
         } else {
         %>
-        <form class="Box_form" action="register.jsp" method="post">
+        <form class="Box_form" action="signup.jsp" method="post">
             <input type="text" name="nickname" placeholder="닉네임" required>
             <input type="text" name="userid" placeholder="아이디" required>
             <input type="password" name="password" placeholder="비밀번호" required>
