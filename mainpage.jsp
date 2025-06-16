@@ -3,7 +3,8 @@
 <html>
 <head>
     <title>로그인</title>
-    <style>/*아직 db에서 회원정보 읽어서 로그인 성공,실패 기능 미구현, process.jsp 미구현*/
+    <style>/*process.jsp는 로그인 기능을 담당할 jsp파일을 만들다가 login.jsp가 이미 있어서 버려진 파일이었습니다.*/
+    		/*지금은 login.jsp로 변경해놨습니다.*/
     	/*로그인 박스*/
         body {
             margin: 0;
@@ -79,7 +80,7 @@
 <body>
     <div class="Box">
         <div class="Box_title">회원 로그인</div>
-        <form class="Box_form" action="process.jsp" method="post">
+        <form class="Box_form" action="login.jsp" method="post">
             <div class="login_input">
                 <input type="text" id="userid" name="userid" placeholder= "아이디" required>
                 <input type="password" id="password" name="password" placeholder= "비밀번호" required>
@@ -97,8 +98,7 @@
         </div>
     </div>
     <div class="buttons">
-        <button class="sidebuttons" onclick="location.href='ranking.jsp'">랭킹</button>
-        <button class="sidebuttons" onclick="location.href='settings.jsp'">설정</button>
+        <button class="sidebuttons" onclick="location.href='ranking.jsp'">랭킹</button>     
     </div>
 </body>
 </html>
